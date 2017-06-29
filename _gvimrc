@@ -1,0 +1,14 @@
+" Dark color scheme
+color darkblue2
+" Programming font
+set guifont=Consolas:h10:cANSI
+" Window size
+set lines=45
+set columns=95
+" Hide the GUI toolbar and menu bars
+set guioptions-=T
+set guioptions-=m
+" Show line numbers
+set number
+" F7 makes window larger to fit two files side-by-side
+noremap <F7> :set columns=190<CR>
