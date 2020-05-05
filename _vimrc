@@ -12,6 +12,11 @@ syntax on
 filetype plugin indent on
 " Make searches case-insensitive
 set ignorecase
+" Enable modelines to use file-specific settings
+set modeline
+" Solarized colorscheme
+set bg=dark
+colors solarized
 
 " Y copies to end of line (makes more sense to me)
 noremap Y y$
