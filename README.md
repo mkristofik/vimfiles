@@ -5,8 +5,9 @@ Config files and plugins for vim.
 
 1. Create `~/.vimrc` to refer to here:
 ```vim
-set runtimepath+=/home/kristo/git/vimfiles
-source /home/kristo/git/vimfiles/_vimrc
+" Use forward slashes for portability, even on Windows.
+set runtimepath+=/path/to/this/repo
+source /path/to/this/repo/_vimrc
 ```
 2. Building an appropriate `~/.gvimrc` differs for every system. Use `_gvimrc`
    as a starting point.
