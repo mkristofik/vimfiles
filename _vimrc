@@ -28,6 +28,7 @@ nnoremap <BS> <C-B>
 " Switch to the next buffer up or down
 noremap <C-J> <C-W>j
 noremap <C-K> <C-W>k
-" Tab = insert one character before
+" Tab = insert one character before, Shift-Tab = insert one after
 noremap <C-I> i<Space><Esc>r
+noremap <S-Tab> a<Space><Esc>r
 
