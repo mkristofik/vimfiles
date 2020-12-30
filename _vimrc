@@ -14,9 +14,11 @@ filetype plugin indent on
 set ignorecase
 " Enable modelines to use file-specific settings
 set modeline
-" Solarized colorscheme
+" Uncomment to use Solarized colorscheme
 set bg=dark
-colors solarized
+"colors solarized
+" Preserve unix line endings on Windows
+set fileformats=unix,dos
 
 " Y copies to end of line (makes more sense to me)
 noremap Y y$
