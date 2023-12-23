@@ -15,3 +15,5 @@ setlocal fileformats=unix,dos
 setlocal cinoptions=g0,(0,l1,t0
 " Don't highlight strings and numbers within comments.
 unlet! c_comment_strings
+" Don't auto-insert comments when not at the start of a line.
+setlocal formatoptions+=/
